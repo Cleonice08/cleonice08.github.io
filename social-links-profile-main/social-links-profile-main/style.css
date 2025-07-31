@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    margin: 0;
+    height: 100vh;               
+    display: flex;
+    justify-content: center;     
+    align-items: center;         
+    font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  height: 440px;
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h2, p {
+  margin: 5px 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.mini-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.mini-card {
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.bio {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+
+.mini-cards :hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  margin-top: 80px;
+}
